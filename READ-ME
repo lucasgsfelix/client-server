@@ -1,0 +1,16 @@
+Trabalho feito para disciplina de redes --- UFSJ 2017/02 -- Lecionada por : Flávio Schiavonni
+
+Trabalho feito por Lucas Félix
+
+
+Para compilador no linux digite:
+
+mcs Cliente.cs
+mono Cliente.exe
+
+ou 
+
+mcs Servidor.cs
+mono Servidor.exe
+
+--- O trabalho consiste em um mini-navegador que baixa páginas de sites queridos na web, e um servidor local para envio de arquivos ---

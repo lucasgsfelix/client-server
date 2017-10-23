@@ -100,8 +100,8 @@ public class Cliente{
          if(resp[0] != "O arquivo desejado não está disponível !!!"){
             string nomeArquivo = nomeSaida(ref pastaRequerida);
 
-            //System.IO.File.WriteAllText(nomeArquivo, resp[0],Encoding.UTF8);
-            File.WriteAllBytes(nomeArquivo, bytes);
+            System.IO.File.WriteAllText(nomeArquivo, resp[0],Encoding.UTF8);
+            //File.WriteAllBytes(nomeArquivo, bytes);
          }
          else{
             Console.Write("\n"+resp);
